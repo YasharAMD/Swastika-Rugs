@@ -135,11 +135,11 @@ div.menu nav > menu > li > a {
 	text-transform	: uppercase;
 	font-family		: 'PT Sans Narrow', 'Helvetica Neue', Arial, sans-serif;
 	font-size		: 17px;
-	color: #ccc;
+	color: #a3a3a3;
 }
 
 div.menu nav menu > li:hover > a {
-	color: #fff;
+	color: white;
 }
 
 div.menu nav > menu > li:hover {
@@ -186,7 +186,7 @@ div.menu li li > a {
 	text-transform	: capitalize;
 	font-family	: 'Helvetica Neue', Arial, sans-serif;
 	font-size	: 12px;
-	color 		: #A3A3A3;
+	color 		: #a3a3a3;
 	padding 	: 5px 5px 10px;
 	border-top	: 1px solid #343434;
 }
@@ -450,6 +450,15 @@ div.contact-us div.content section.info iframe {
 }
 
 div.contact-us div.content section.info iframe:hover {
+	opacity: 1;
+}
+
+div.contact-us div.content iframe {
+	opacity			: 0.5;
+	border-radius	: 5px;
+}
+
+div.contact-us div.content iframe:hover {
 	opacity: 1;
 }
 
@@ -1154,6 +1163,7 @@ div.sample div.content h1 {
 	text-transform	: capitalize;
 	text-decoration	: none;
 }
+
 /*---------- Autumn 2012 ---------*/
 /*---------- *** ----------*/
 
